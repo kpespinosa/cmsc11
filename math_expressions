@@ -1,0 +1,26 @@
+Ex:
+	2x
+
+	2 * x
+
+
+1) 	n (n - 1)
+	---------
+		n
+(n * (n - 1)) / n 
+2) formula of area of circle given radius (M_PI as the PI value). 
+pi * r^2
+M_PI * (r * r)
+
+3) 2y - y
+   ------
+   2x - x
+(2*y - y) / (2*x - x)
+((2*y - y) / (2*x - x))
+((2*y) - y) / ((2*x) - x)
+
+4) remainder of a divided by b
+a % b
+
+5) expression for area of rectangle. perimeter is (2*l) + (2*w).
+l*w

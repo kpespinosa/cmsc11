@@ -3,7 +3,6 @@
 
 int main()
 {
-	printf("State your name:\n");
-	string name = GetString();
+	string name = "Kurt";
 	printf("Hello %s!\n", name);
 }
