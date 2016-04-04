@@ -10,22 +10,6 @@ int main()
 	{
 		printf("%c\n", name[i]);
 	}
+
+	printf("%d\n", len);
 }
-
-/**
-int ar[5];
-[5][3][2][1][7]
-
-ar[0] -> 5
-ar[1] -> 3
-
-string ~ char ar[]
-
-char name[5];//declaration of arrays
-[k][u][r][t][]
-
-name[0] -> k
-name[3] -> t
-name[4] -> 
-name[5] -> k
-*/
