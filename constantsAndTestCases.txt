@@ -1,0 +1,50 @@
+constants: Create function to compute total cost of cars, if two or more discount 15% of total price. The price for a car is 30000.
+
+float totalCost(int numCars)
+{
+	const float PERCENT_DISCOUNT = 0.15;
+	const float PRICE_PER_CAR = 30000.0;
+	... numCars, PERCENT_DISCOUNT, PRICE_PER_CAR;
+	return 0.0;
+}
+
+testcoverage: isVowel. check if a character is a vowel. 
+
+bool isVowel(char c)
+{
+	if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+int main()
+{
+	//category of inputs: vowel, nonvowel (consonant, digits, punctuations)
+	printf("%d==%d\n", isVowel('a'), true);
+	printf("%d==%d\n", isVowel('5'), false);
+
+
+	//boundary cases
+	//none
+
+	//code coverage
+	printf("%d==%d\n", isVowel('a'), true);
+	printf("%d==%d\n", isVowel('e'), true);
+	printf("%d==%d\n", isVowel('i'), true);
+	printf("%d==%d\n", isVowel('o'), true);
+	printf("%d==%d\n", isVowel('u'), true);
+	printf("%d==%d\n", isVowel('A'), true);
+	printf("%d==%d\n", isVowel('E'), true);
+	printf("%d==%d\n", isVowel('I'), true);
+	printf("%d==%d\n", isVowel('O'), true);
+	printf("%d==%d\n", isVowel('U'), true);
+
+	printf("%d==%d\n", isVowel('b'), false);
+
+
+}
