@@ -1,0 +1,45 @@
+a string is an array of characters.
+
+but the string must be declared with size +1 to account for the null character.
+
+ex:
+char name[] = {"Kurt"};//valid without size because it is initialised
+
+char name[];//error
+
+char name[30];
+name = "Kurt";
+
+char* name is equal to char name[size];//see you in CMSC21
+
+
+
+====================
+
+
+Class cs11 = {};
+Student s = cs11.students[0]//returns a student
+s.name;
+
+cs11.students[0].name
+
+Student a = {}
+a.name
+
+
+===================
+
+Exercise:
+
+1. Create a structure Class with 
+the following properties:
+
+1. array of students length 30
+2. size of class 
+
+int ar[30];
+Student ar[30];
+
+2. Print all the students - just their names.
+Create a function listStudents with 
+parameter class. 
